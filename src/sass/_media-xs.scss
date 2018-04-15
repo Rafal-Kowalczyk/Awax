@@ -1,16 +1,6 @@
 /* @media (max-width: 767px) */
 
-$fonts: "Montserrat", sans-serif;
-$color-gold: #b88b58;
-$font-white: #fff;
-$text-uppercase: uppercase;
-$background-black: #000;
-$background-media: #bebebe;
-$font-color-p: #7e7e7e;
-$background-grey: #373737;
-$color-lightgrey: #aeaeae;
-$background-tell: #cfcfcf;
-$border-bottom-color: #9e9e9e;
+@import "_base";
 
 @mixin transform-scale() {
 	transform: scale(1.1);
