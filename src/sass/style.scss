@@ -236,22 +236,31 @@ nav {
 	text-align: center;
 	.our-buttons {
 		margin-bottom: 30px;
-		height: 30px;
+		height: 50px;
 		text-transform: $text-uppercase;
 		.btn {
 			font-size: 14px;
-			font-weight: 600;
-			color: black;
+			font-weight: 300;
+			padding: 10px;
+			color: $background-black;
 			box-sizing: border-box;
 			background-color:  $background-tell;
 			border-bottom: none;
 			border: 1px solid $color-lightgrey;
-			min-width: 100px;
+			min-width: 110px;
 			cursor: pointer;
 			&:hover {
 				border-bottom: 3px solid $color-gold;
 			}
-		}			
+		}	
+		.btn-our-left {
+			border-top-left-radius: 20px;
+			border-bottom-left-radius: 20px;
+		}	
+		.btn-our-right {
+			border-top-right-radius: 20px;
+			border-bottom-right-radius: 20px;
+		}		
 	}
 	.image {
 	    position: relative;

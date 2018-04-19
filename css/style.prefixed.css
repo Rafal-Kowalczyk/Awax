@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700");
 * {
   box-sizing: border-box;
 }
@@ -266,24 +267,35 @@ nav .navbar-nav li a:hover {
 
 .our-projects .our-buttons {
   margin-bottom: 30px;
-  height: 30px;
+  height: 50px;
   text-transform: uppercase;
 }
 
 .our-projects .our-buttons .btn {
   font-size: 14px;
-  font-weight: 600;
-  color: black;
+  font-weight: 300;
+  padding: 10px;
+  color: #000;
   box-sizing: border-box;
   background-color: #cfcfcf;
   border-bottom: none;
   border: 1px solid #aeaeae;
-  min-width: 100px;
+  min-width: 110px;
   cursor: pointer;
 }
 
 .our-projects .our-buttons .btn:hover {
   border-bottom: 3px solid #b88b58;
+}
+
+.our-projects .our-buttons .btn-our-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.our-projects .our-buttons .btn-our-right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .our-projects .image {
@@ -987,8 +999,6 @@ nav .navbar-nav li a:hover {
   }
   .our-projects .our-buttons .btn {
     font-size: 10px;
-    min-width: 80px;
-    height: 25px;
   }
   .cards {
     padding: 0;
@@ -1260,9 +1270,7 @@ nav .navbar-nav li a:hover {
   }
   .our-projects .our-buttons .btn {
     font-size: 8px;
-    font-weight: 600;
-    padding: 5px;
-    min-width: 50px;
+    min-width: 70px;
   }
   .our-projects .our-button-bottom {
     margin: 15px;
